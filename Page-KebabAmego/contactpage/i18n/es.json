@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "image_lang": "./img/flags/spain-flag.svg",
+    "lang_button": "ES",
+    "home_button": "INICIO",
+    "menu_button": "CARTA",
+    "about_button": "ABOUT US",
+    "contact_button": "CONTACTO",
+    "cart_button": "CESTA"
+  },
+  "products": {
+    "card_text": "Productos",
+    "food1": "Durum de Heura",
+    "food1_desc": "Heura marinado en una tortilla de trigo con col encurtida, lechuga, pepino, cebolla y guindilla. Con nuestra salsa de yogur de soja ecológica y salsa picante.",
+    "food2": "Pita de Heura",
+    "food2_desc": "Heura marinado en un pan pita con col encurtida, lechuga, pepino, cebolla y guindilla. Con nuestra salsa de yogur de soja ecológica y salsa picante.",
+    "food3": "Pita de Seitán",
+    "food3_desc": "Seitán marinado en un pan pita con col encurtida, lechuga, pepino, cebolla y guindilla. Con nuestra salsa de yogur de soja ecológica y salsa picante.",
+    "food4": "Durum de Seitán",
+    "food4_desc": "Seitán marinado en una tortilla de trigo con col encurtida, lechuga, pepino, cebolla y guindilla. Con nuestra salsa de yogur de soja ecológica y salsa picante.",
+    "cta_text": "Pedir Ahora"
+  },
+  "footer": {
+    "menu_text": "Menú",
+    "footer_home_button": "Inicio",
+    "footer_contact_button": "Contacto",
+    "legal_text": "Área Legal",
+    "policy_text": "Política de privacidad",
+    "cookies_text": "Cookies",
+    "advice_text": "Aviso Legal",
+    "follow_text": "Síguenos",
+    "copyright_text": "Copyright 2024, Amego. Todos los derechos reservados."
+  },
+  "about": {
+    "ab_desc": "Kebab Amego, donde la auténtica cocina turca se encuentra con la accesibilidad. \n\nNos comprometemos a ofrecer deliciosos platillos a precios asequibles, creyendo que todos merecen disfrutar de una experiencia gastronómica de calidad sin gastar en exceso. \n\nDescubre la fusión de sabores auténticos y ambiente acogedor en nuestro rincón turco, donde la satisfacción del cliente es nuestra prioridad. \n\n¡Únete a nosotros para crear momentos culinarios inolvidables!"
+  }
+}

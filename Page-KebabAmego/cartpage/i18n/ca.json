@@ -1,0 +1,34 @@
+{
+    "nav": {
+      "image_lang": "../Imagenes/flags/catalonia-flag.svg",
+      "lang_button": "CA",
+      "home_button": "INICI",
+      "menu_button": "CARTE",
+      "about_button": "SOBRE NOSALTRES",
+      "contact_button": "CONTACTE",
+      "cart_button": "CISTELLA"
+    },
+    "products": {
+      "food1": "Durum de Seitan",
+      "food1_desc":"8.5€",
+      "food2": "Pita de Seitan",
+      "food2_desc":"8.5€",
+      "food3": "Pita de Seitan",
+      "food3_desc":"2.5€",
+      "cta_text": "Fer Comanda"
+    },
+    "footer": {
+      "menu_text": "Menú",
+      "footer_home_button": "Inici",
+      "footer_contact_button": "Contacte",
+      "legal_text": "Àrea Legal",
+      "policy_text": "Política de privacitat",
+      "cookies_text": "Galetes",
+      "advice_text": "Avís Legal",
+      "follow_text": "Segueix-nos",
+      "copyright_text": "Copyright 2024, Amego. Tots els drets reservats.",
+      "footer_phone": "814 33 44 63",
+      "footer_email": "amegokebab@info.com"
+    }
+  }
+  

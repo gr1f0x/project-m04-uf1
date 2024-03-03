@@ -1,0 +1,34 @@
+{
+    "nav": {
+      "image_lang": "../Imagenes/flags/spain-flag.svg",
+      "lang_button": "ES",
+      "home_button": "INICIO",
+      "menu_button": "CARTA",
+      "about_button": "SOBRE NOSOTROS",
+      "contact_button": "CONTACTO",
+      "cart_button": "CARRITO"
+    },
+    "products": {
+      "food1": "Durum de Seitan",
+      "food1_desc":"8.5€",
+      "food2": "Pita de Seitan",
+      "food2_desc":"8.5€",
+      "food3": "Pita de Seitan",
+      "food3_desc":"2.5€",
+      "cta_text": "Hacer Pedido"
+    },
+    "footer": {
+      "menu_text": "Menú",
+      "footer_home_button": "Inicio",
+      "footer_contact_button": "Contacto",
+      "legal_text": "Área Legal",
+      "policy_text": "Política de privacidad",
+      "cookies_text": "Cookies",
+      "advice_text": "Aviso Legal",
+      "follow_text": "Síguenos",
+      "copyright_text": "Copyright 2024, Amego. Todos los derechos reservados.",
+      "footer_phone": "814 33 44 63",
+      "footer_email": "amegokebab@info.com"
+    }
+  }
+  

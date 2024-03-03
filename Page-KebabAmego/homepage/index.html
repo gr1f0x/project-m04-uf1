@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <script src="./js/index.js" defer></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-wrap">
+        <div class="wrap-logo-header">
+          <img class="logo-header" src="img/icons/logo.svg" alt="" />
+        </div>
+        <div class="wrap-nav-header">
+          <nav class="nav-header">
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+              <div class="toggle-menu">
+                <img src="img/icons/Hamburger_icon.svg" alt="" />
+              </div>
+            </label>
+            <ul class="main-menu">
+              <li class="menu-item">
+                <img id="image_lang" src="./img/flags/spain-flag.svg" alt="" />
+                <a id="lang_button">ES</a>
+                <ul class="menu-vertical">
+                  <li onclick="changeLanguage('es')">
+                    <img src="./img/flags/spain-flag.svg" alt="" />ES
+                  </li>
+                  <li onclick="changeLanguage('ca')">
+                    <img src="./img/flags/catalonia-flag.svg" alt="" />CA
+                  </li>
+                  <li onclick="changeLanguage('en')">
+                    <img src="./img/flags/uk-flag.svg" alt="" />EN
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item"><a href="../homepage/index.html" id="home_button">INICIO</a></li>
+              <li class="menu-item">
+                <a href="../menupage/Html/Index.Html" class="underline-from-center" id="menu_button"
+                  >CARTA</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#about" class="underline-from-center" id="about_button"
+                  >ABOUT</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="../contactpage/index.html" class="underline-from-center" id="contact_button"
+                  >CONTACTO</a
+                >
+              </li>
+              <li><a href="../cartpage/Html/Cesta.html" class="glow" id="cart_button">CESTA</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="hero" id="puff-in-center">
+      <p class="hero-text1">AMEGO</p>
+      <p class="hero-text2">KEBAB</p>
+    </div>
+
+    <main>
+      <section class="wrap section">
+        <p class="card_title" id="card_text">Productos</p>
+        <div class="column-4 columns">
+          <div class="tarjeta-rest">
+            <div class="wrap-text_tarjeta-rest">
+              <h3 id="food1">Durum de Heura</h3>
+              <p id="food1_desc">
+                Heura marinada en una tortilla de trigo con col encurtida,
+                lechuga, pepino, cebolla y piparra. Con nuestra salsa de yogur
+                de soja ecológica y salsa picante.
+              </p>
+              <div class="cta-wrap_tarjeta-rest">
+                <div class="precio_tarjeta-rest">
+                  <span>3,50€</span>
+                </div>
+                <div class="cta_tarjeta-rest">
+                  <a href="" class="cta_text">Pedir ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tarjeta-rest">
+            <div class="wrap-text_tarjeta-rest">
+              <h3 id="food2">Pita de Heura</h3>
+              <p id="food2_desc">
+                Heura marinada en un pan pita con col encurtida, lechuga,
+                pepino, cebolla y piparra. Con nuestra salsa de yogur de soja
+                ecológica y salsa picante.
+              </p>
+              <div class="cta-wrap_tarjeta-rest">
+                <div class="precio_tarjeta-rest">
+                  <span>4€</span>
+                </div>
+                <div class="cta_tarjeta-rest">
+                  <a href="" class="cta_text">Pedir ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tarjeta-rest">
+            <div class="wrap-text_tarjeta-rest">
+              <h3 id="food3">Pita de Seitan</h3>
+              <p id="food3_desc">
+                Seitán marinado en un pan pita con col encurtida, lechuga,
+                pepino, cebolla y piparra. Con nuestra salsa de yogur de soja
+                ecológica y salsa picante.
+              </p>
+              <div class="cta-wrap_tarjeta-rest">
+                <div class="precio_tarjeta-rest">
+                  <span>4€</span>
+                </div>
+                <div class="cta_tarjeta-rest">
+                  <a href="" class="cta_text">Pedir ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tarjeta-rest">
+            <div class="wrap-text_tarjeta-rest">
+              <h3 id="food4">Durum de Seitan</h3>
+              <p id="food4_desc">
+                Seitán marinado en una tortilla de trigo con col encurtida,
+                lechuga, pepino, cebolla y piparra. Con nuestra salsa de yogur
+                de soja ecológica y salsa picante.
+              </p>
+              <div class="cta-wrap_tarjeta-rest">
+                <div class="precio_tarjeta-rest">
+                  <span>3,50€</span>
+                </div>
+                <div class="cta_tarjeta-rest">
+                  <a href="" class="cta_text">Pedir ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="wrap section2" id="about">
+        <p class="desc_title" id="desc_text">About Us</p>
+        <div class="contenedor">
+          <p class="about_desc" id="ab_desc">
+            Kebab Amego, donde la auténtica cocina turca se encuentra con la
+            accesibilidad.
+            <br />
+            <br />
+            Nos comprometemos a ofrecer deliciosos platillos a precios
+            asequibles, creyendo que todos merecen disfrutar de una experiencia
+            gastronómica de calidad sin gastar en exceso. <br />
+            <br />
+            Descubre la fusión de sabores auténticos y ambiente acogedor en
+            nuestro rincón turco, donde la satisfacción del cliente es nuestra
+            prioridad. <br />
+            <br />
+            ¡Únete a nosotros para crear momentos culinarios inolvidables!
+          </p>
+          <img class="desc_img" src="./img/background/kebab.jpg" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content-container">
+          <h3 class="website-logo">Amego Kebab</h3>
+          <span class="footer-info">814 33 44 63</span>
+          <span class="footer-info">amegokebab@info.com</span>
+        </div>
+        <div class="footer-menus">
+          <div class="footer-content-container">
+            <span class="menu-title" id="menu_text">Menú</span>
+            <a href="" class="menu-item-footer" id="footer_home_button"
+              >Inicio</a
+            >
+            <a href="" class="menu-item-footer" id="footer_contact_button"
+              >Contacto</a
+            >
+          </div>
+          <div class="footer-content-container">
+            <span class="menu-title" id="legal_text">Área Legal</span>
+            <a href="" class="menu-item-footer" id="policy_text"
+              >Política de privacidad</a
+            >
+            <a href="" class="menu-item-footer" id="cookies_text">Cookies</a>
+            <a href="" class="menu-item-footer" id="advice_text">Aviso Legal</a>
+          </div>
+        </div>
+
+        <div class="footer-content-container">
+          <span class="menu-title" id="follow_text">Síguenos</span>
+          <div class="social-container">
+            <a href="" class="social-link"></a>
+            <a href="" class="social-link"></a>
+            <a href="" class="social-link"></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-container">
+        <span class="copyright" id="copyright_text"
+          >Copyright 2024, Amego. Todos los derechos reservados.</span
+        >
+      </div>
+    </footer>
+  </body>
+</html>

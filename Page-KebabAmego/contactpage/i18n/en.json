@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "image_lang": "./img/flags/uk-flag.svg",
+    "lang_button": "EN",
+    "home_button": "HOME",
+    "menu_button": "MENU",
+    "about_button": "ABOUT US",
+    "contact_button": "CONTACT",
+    "cart_button": "CART"
+  },
+  "products": {
+    "card_text": "Products",
+    "food1": "Heura Durum",
+    "food1_desc": "Heura marinated in a wheat tortilla with pickled cabbage, lettuce, cucumber, onion, and chili. With our organic soy yogurt sauce and spicy sauce.",
+    "food2": "Heura Pita",
+    "food2_desc": "Heura marinated in a pita bread with pickled cabbage, lettuce, cucumber, onion, and chili. With our organic soy yogurt sauce and spicy sauce.",
+    "food3": "Seitan Pita",
+    "food3_desc": "Seitan marinated in a pita bread with pickled cabbage, lettuce, cucumber, onion, and chili. With our organic soy yogurt sauce and spicy sauce.",
+    "food4": "Seitan Durum",
+    "food4_desc": "Seitan marinated in a wheat tortilla with pickled cabbage, lettuce, cucumber, onion, and chili. With our organic soy yogurt sauce and spicy sauce.",
+    "cta_text": "Order Now"
+  },
+  "footer": {
+    "menu_text": "Menu",
+    "footer_home_button": "Home",
+    "footer_contact_button": "Contact",
+    "legal_text": "Legal Area",
+    "policy_text": "Privacy Policy",
+    "cookies_text": "Cookies",
+    "advice_text": "Legal Notice",
+    "follow_text": "Follow Us",
+    "copyright_text": "Copyright 2024, Amego. All rights reserved."
+  },
+  "about": {
+    "ab_desc": "Kebab Amego, where authentic Turkish cuisine meets accessibility. \n\nWe are committed to providing delicious dishes at affordable prices, believing that everyone deserves to enjoy a quality dining experience without overspending. \n\nDiscover the fusion of authentic flavors and a welcoming atmosphere in our Turkish corner, where customer satisfaction is our priority. \n\nJoin us to create unforgettable culinary moments!"
+  }
+}

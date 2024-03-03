@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "image_lang": "./img/flags/catalonia-flag.svg",
+    "lang_button": "CA",
+    "home_button": "INICI",
+    "menu_button": "CARTA",
+    "about_button": "ABOUT US",
+    "contact_button": "CONTACTE",
+    "cart_button": "CISTELLA"
+  },
+  "products": {
+    "card_text": "Productes",
+    "food1": "Durum d'Heura",
+    "food1_desc": "Heura marinada en una truita de blat de moro amb col encurtida, enciam, cogombre, ceba i vitet. Amb la nostra salsa de iogurt de soja ecològica i salsa picant.",
+    "food2": "Pita d'Heura",
+    "food2_desc": "Heura marinada en un pa pita amb col encurtida, enciam, cogombre, ceba i vitet. Amb la nostra salsa de iogurt de soja ecològica i salsa picant.",
+    "food3": "Pita de Seitan",
+    "food3_desc": "Seitan marinada en un pa pita amb col encurtida, enciam, cogombre, ceba i vitet. Amb la nostra salsa de iogurt de soja ecològica i salsa picant.",
+    "food4": "Durum de Seitan",
+    "food4_desc": "Seitan marinada en una truita de blat de moro amb col encurtida, enciam, cogombre, ceba i vitet. Amb la nostra salsa de iogurt de soja ecològica i salsa picant.",
+    "cta_text": "Demanar Ara"
+  },
+  "footer": {
+    "menu_text": "Menú",
+    "footer_home_button": "Inici",
+    "footer_contact_button": "Contacte",
+    "legal_text": "Àrea Legal",
+    "policy_text": "Política de privacitat",
+    "cookies_text": "Cookies",
+    "advice_text": "Avís Legal",
+    "follow_text": "Segueix-nos",
+    "copyright_text": "Copyright 2024, Amego. Tots els drets reservats."
+  },
+  "about": {
+    "ab_desc": "Kebab Amego, on l'autèntica cuina turca es troba amb l'accessibilitat. \n\nEns comprometem a oferir deliciosos platerets a preus assequibles, creient que tots mereixen gaudir d'una experiència gastronòmica de qualitat sense gastar en excés. \n\nDescobreix la fusió de sabors autèntics i ambient acollidor en el nostre racó turc, on la satisfacció del client és la nostra prioritat. \n\nUneix-te a nosaltres per a crear moments culinaris inoblidables!"
+  }
+}

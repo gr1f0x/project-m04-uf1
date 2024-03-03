@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMEGO KEBAB</title>
+    <link rel="stylesheet" href="../Css/reset.css">
+    <link rel="stylesheet" href="../Css/styles.css">
+    <script src="../js/Script.js" defer></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-wrap">
+          <div class="wrap-logo-header">
+            <img class="logo-header" src="../Imagenes/icons/logo.svg" alt="" />
+          </div>
+          <div class="wrap-nav-header">
+            <nav class="nav-header">
+              <input type="checkbox" id="check" />
+              <label for="check" class="checkbtn">
+                <div class="toggle-menu">
+                  <img src="../Imagenes/icons/Hamburger_icon.svg" alt="" />
+                </div>
+              </label>
+              <ul class="main-menu">
+                <li class="menu-item">
+                  <img id="image_lang" src="../Imagenes/flags/spain-flag.svg" alt="" />
+                  <a id="lang_button">ES</a>
+                  <ul class="menu-vertical">
+                    <li onclick="changeLanguage('es')">
+                      <img src="../Imagenes/flags/spain-flag.svg" alt="" />ES
+                    </li>
+                    <li onclick="changeLanguage('ca')">
+                      <img src="../Imagenes/flags/catalonia-flag.svg" alt="" />CA
+                    </li>
+                    <li onclick="changeLanguage('en')">
+                      <img src="../Imagenes/flags/uk-flag.svg" alt="" />EN
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item"><a href="../../homepage/index.html" id="home_button">INICIO</a></li>
+                <li class="menu-item">
+                  <a href="../../menupage/Html/Index.Html" class="underline-from-center" id="menu_button"
+                    >CARTA</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="../../homepage/index.html/#about" class="underline-from-center" id="about_button"
+                    >ABOUT</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="../../contactpage/index.html" class="underline-from-center" id="contact_button"
+                    >CONTACTO</a
+                  >
+                </li>
+                <li><button class="glow" id="cart_button">CESTA</button></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+
+    <div class="cuerpo">
+        <div class="container">
+          
+            <div class="item">
+                <button class="box-close" onclick="deleteItem(this)">×</button>
+                <img src="../Imagenes/Durum de seitan.png" alt="Durum de seitan">
+                <div class="item-content">
+                    <h3 id="food1_title">Durum de seitán</h3>
+                    <p id="food1_price">8.50€</p>
+                    <div class="quantity-container">
+                        <label for="quantity">Cantidad:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    </div>
+                </div>
+                <div class="item-actions">
+                    <div class="action-container">
+                     
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <button class="box-close" onclick="deleteItem(this)">×</button>
+                <img src="../Imagenes/Pita de Seitan.png" alt="Pita de seitan">
+                <div class="item-content">
+                    <h3 id="food2_title">Pita de seitán</h3>
+                    <p id="food2_price">8.50€</p>
+                    <div class="quantity-container">
+                        <label for="quantity">Cantidad:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    </div>
+                </div>
+                <div class="item-actions">
+                    <div class="action-container">
+                      
+                    </div>
+                </div>
+            </div>
+
+         
+            <div class="item">
+                <button class="box-close" onclick="deleteItem(this)">×</button>
+                <img class="Moritz" src="../Imagenes/moritz-clasica.png" alt="Moritz Original">
+                <div class="item-content">
+                    <h3 id="food3_title">Moritz Original</h3>
+                    <p id="food3_price">2.50€</p>
+                    <div class="quantity-container">
+                        <label for="quantity">Cantidad:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    </div>
+                </div>
+                <div class="item-actions">
+                    <div class="action-container">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="resumen">
+            <div class="resumen-content">
+                <h2 id="resumen_title">Tu Pedido</h2>
+                <p><span id="subtotal">Subtotal:</span> 19.50€</p>
+                <p><span id="shipping">Envío:</span> 2.50€</p>
+                <p><span id="surcharge">Recargo:</span> 1.50€</p>
+                <h4><span id="total">Total:</span> 23.50€</h4>
+            </div>
+            <button class="PedidoContinuar">Continuar con el pedido</button>
+        </div>
+    </div>
+    <script>
+        function deleteItem(button) {
+            var item = button.closest('.item');
+            item.remove();
+        }
+    </script>
+    <footer>
+        <div class="footer-container">
+          <div class="footer-content-container">
+            <h3 class="website-logo">Amego Kebab</h3>
+            <span class="footer-info" id="footer_phone">814 33 44 63</span>
+            <span class="footer-info" id="footer_email">amegokebab@info.com</span>
+          </div>
+          <div class="footer-menus">
+            <div class="footer-content-container">
+              <span class="menu-title" id="menu_text">Menú</span>
+              <a href="" class="menu-item-footer" id="footer_home_button"
+                >Inicio</a
+              >
+              <a href="" class="menu-item-footer" id="footer_contact_button"
+                >Contacto</a
+              >
+            </div>
+            <div class="footer-content-container">
+              <span class="menu-title" id="legal_text">Área Legal</span>
+              <a href="" class="menu-item-footer" id="policy_text"
+                >Política de privacidad</a
+              >
+              <a href="" class="menu-item-footer" id="cookies_text">Cookies</a>
+              <a href="" class="menu-item-footer" id="advice_text">Aviso Legal</a>
+            </div>
+          </div>
+  
+          <div class="footer-content-container">
+            <span class="menu-title" id="follow_text">Síguenos</span>
+            <div class="social-container">
+              <a href="" class="social-link"></a>
+              <a href="" class="social-link"></a>
+              <a href="" class="social-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-container">
+          <span class="copyright" id="copyright_text"
+            >Copyright 2024, Amego. Todos los derechos reservados.</span
+          >
+        </div>
+      </footer>
+</body>
+
+</html>

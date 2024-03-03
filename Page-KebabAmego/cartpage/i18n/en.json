@@ -1,0 +1,34 @@
+{
+    "nav": {
+      "image_lang": "../Imagenes/flags/uk-flag.svg",
+      "lang_button": "EN",
+      "home_button": "HOME",
+      "menu_button": "MENU",
+      "about_button": "ABOUT US",
+      "contact_button": "CONTACT",
+      "cart_button": "CART"
+    },
+    "products": {
+      "food1": "Seitan Durum",
+      "food1_desc":"7.25£",
+      "food2": "Seitan Pita",
+      "food2_desc":"7.25£",
+      "food3": "Seitan Pita",
+      "food3_desc":"2.10£",
+      "cta_text": "Place Order"
+    },
+    "footer": {
+      "menu_text": "Menu",
+      "footer_home_button": "Home",
+      "footer_contact_button": "Contact",
+      "legal_text": "Legal Area",
+      "policy_text": "Privacy Policy",
+      "cookies_text": "Cookies",
+      "advice_text": "Legal Notice",
+      "follow_text": "Follow Us",
+      "copyright_text": "Copyright 2024, Amego. All rights reserved.",
+      "footer_phone": "814 33 44 63",
+      "footer_email": "amegokebab@info.com"
+    }
+  }
+  

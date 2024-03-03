@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/main.css" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="header-wrap">
+        <div class="wrap-logo-header">
+          <img class="logo-header" src="img/icons/logo.svg" alt="" />
+        </div>
+        <div class="wrap-nav-header">
+          <nav class="nav-header">
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+              <div class="toggle-menu">
+                <img src="img/icons/Hamburger_icon.svg" alt="" />
+              </div>
+            </label>
+            <ul class="main-menu">
+              <li class="menu-item">
+                <img id="image_lang" src="./img/flags/spain-flag.svg" alt="" />
+                <a id="lang_button">ES</a>
+                <ul class="menu-vertical">
+                  <li onclick="changeLanguage('es')">
+                    <img src="./img/flags/spain-flag.svg" alt="" />ES
+                  </li>
+                  <li onclick="changeLanguage('ca')">
+                    <img src="./img/flags/catalonia-flag.svg" alt="" />CA
+                  </li>
+                  <li onclick="changeLanguage('en')">
+                    <img src="./img/flags/uk-flag.svg" alt="" />EN
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="../homepage/index.html" id="home_button">INICIO</a>
+              </li>
+              <li class="menu-item">
+                <a href="../menupage/Html/Index.Html" class="underline-from-center" id="menu_button"
+                  >CARTA</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="../homepage/index.html/#about" class="underline-from-center" id="about_button"
+                  >ACERCA DE</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="../contactpage/index.html" class="underline-from-center" id="contact_button"
+                  >CONTACTO</a
+                >
+              </li>
+              <li><a href="../cartpage/Html/Cesta.html" class="glow" id="cart_button">CESTA</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <h1 class="custom-heading white-text">CONTACTA CON NOSOTROS</h1>
+
+    <div class="contact-page">
+      <div class="info-section">
+        <h1 class="centered-text white-text">Información de contacto</h1>
+        <div class="contact-info">
+          <h2 class="info-heading white-text">Teléfono, Correo o Dirección:</h2>
+          <div class="info-item">
+            <div class="info-icon black-bg white-text">📍</div>
+            <div class="info-text white-text">
+              <p>Calle de la Libertad, 23</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon black-bg white-text">📞</div>
+            <div class="info-text white-text">
+              <p>915 234 567</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon black-bg white-text">📧</div>
+            <div class="info-text white-text">
+              <p>amegokebab@info.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <h2 class="centered-text">Formulario de Contacto</h2>
+        <form method="POST" netlify>
+          <label for="nombre" class="black-text">Nombre:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escribe aquí..."
+            required
+          />
+          <label for="apellido" class="black-text">Apellido:</label>
+          <input
+            type="text"
+            id="apellido"
+            name="apellido"
+            placeholder="Escribe aquí..."
+            required
+          />
+          <label for="correo" class="black-text">Correo:</label>
+          <input
+            type="email"
+            id="correo"
+            name="correo"
+            placeholder="Escribe aquí..."
+            required
+          />
+          <label for="telefono" class="black-text">Teléfono:</label>
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            placeholder="Escribe aquí..."
+            required
+          />
+
+          <div class="motivo-container">
+            <label class="black-text">Motivo de contacto:</label>
+            <div class="radio-buttons">
+              <input
+                type="radio"
+                id="no-llega"
+                name="motivo"
+                value="no-llega"
+                required
+              />
+              <label for="no-llega">No llega la compra</label>
+
+              <input
+                type="radio"
+                id="pago-no-funciona"
+                name="motivo"
+                value="pago-no-funciona"
+                required
+              />
+              <label for="pago-no-funciona">Pago no funciona</label>
+
+              <input
+                type="radio"
+                id="preguntas"
+                name="motivo"
+                value="preguntas"
+                required
+              />
+              <label for="preguntas">Preguntas</label>
+
+              <input
+                type="radio"
+                id="otros"
+                name="motivo"
+                value="otros"
+                required
+              />
+              <label for="otros">Otros</label>
+            </div>
+          </div>
+
+          <label for="problema" class="black-text">Problema:</label>
+          <textarea
+            id="problema"
+            name="problema"
+            placeholder="Escribe aquí..."
+            rows="6"
+            required
+          ></textarea>
+          <button type="submit" class="submit-button">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content-container">
+          <h3 class="website-logo">Amego Kebab</h3>
+          <span class="footer-info">814 33 44 63</span>
+          <span class="footer-info">amegokebab@info.com</span>
+        </div>
+        <div class="footer-menus">
+          <div class="footer-content-container">
+            <span class="menu-title" id="menu_text">Menú</span>
+            <a href="" class="menu-item-footer" id="footer_home_button"
+              >Inicio</a
+            >
+            <a href="" class="menu-item-footer" id="footer_contact_button"
+              >Contacto</a
+            >
+          </div>
+          <div class="footer-content-container">
+            <span class="menu-title" id="legal_text">Área Legal</span>
+            <a href="" class="menu-item-footer" id="policy_text"
+              >Política de privacidad</a
+            >
+            <a href="" class="menu-item-footer" id="cookies_text">Cookies</a>
+            <a href="" class="menu-item-footer" id="advice_text">Aviso Legal</a>
+          </div>
+        </div>
+
+        <div class="footer-content-container">
+          <span class="menu-title" id="follow_text">Síguenos</span>
+          <div class="social-container">
+            <a href="" class="social-link"></a>
+            <a href="" class="social-link"></a>
+            <a href="" class="social-link"></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-container">
+        <span class="copyright" id="copyright_text"
+          >Copyright 2024, Amego. Todos los derechos reservados.</span
+        >
+      </div>
+    </footer>
+  </body>
+</html>
