@@ -1,60 +1,128 @@
-# Amego Kebab
+# 🍢 Amego Kebab
 
-Este es el repositorio del proyecto Amego Kebab, un sitio web para un restaurante de kebabs. El proyecto incluye varias páginas como la página de inicio, el menú, la cesta de compras y la página de contacto.
+Welcome to the **Amego Kebab** repository, a website designed for a kebab restaurant. This project includes essential web pages such as the homepage, menu, shopping cart, and contact page.
 
-## Estructura del Proyecto
+![image (20)](https://github.com/user-attachments/assets/c91faa70-94e2-4c35-b0ef-02961cfde2bc)
 
-Page-KebabAmego/ cartpage/ Css/ reset.css styles.css Html/ Cesta.html i18n/ ca.json en.json es.json Imagenes/ flags/ footer-logos/ icons/ js/ Script.js ts/ index.ts contactpage/ CSS/ main.css reset.css i18n/ ca.json en.json es.json img/ flags/ footer-logos/ icons/ index.html js/ ... ts/ homepage/ css/ i18n/ img/ index.html js/ ts/ menupage/ Css/ Html/ i18n/ Imagenes/ img/ js/ ts/
+---
 
+## 📂 Project Structure
 
-## Páginas Principales
+```
+Page-KebabAmego/
+│── cartpage/
+│   ├── css/
+│   │   ├── reset.css
+│   │   ├── styles.css
+│   ├── html/
+│   │   ├── cart.html
+│   ├── i18n/
+│   │   ├── ca.json
+│   │   ├── en.json
+│   │   ├── es.json
+│   ├── js/
+│   │   ├── script.js
+│   ├── ts/
+│   │   ├── index.ts
+│── contactpage/
+│   ├── css/
+│   │   ├── main.css
+│   │   ├── reset.css
+│   ├── i18n/
+│   │   ├── ca.json
+│   │   ├── en.json
+│   │   ├── es.json
+│   ├── img/
+│   │   ├── flags/
+│   │   ├── footer-logos/
+│   │   ├── icons/
+│   ├── index.html
+│   ├── js/
+│   ├── ts/
+│── homepage/
+│   ├── css/
+│   ├── i18n/
+│   ├── img/
+│   ├── index.html
+│   ├── js/
+│   ├── ts/
+│── menupage/
+│   ├── css/
+│   ├── html/
+│   │   ├── index.html
+│   ├── i18n/
+│   ├── img/
+│   ├── js/
+│   ├── ts/
+│── images/
+│   ├── flags/
+│   ├── footer-logos/
+│   ├── icons/
+```
 
-### Página de Inicio
+---
 
-- **Archivo:** [homepage/index.html](homepage/index.html)
-- **Descripción:** Página principal del sitio web con información general sobre el restaurante.
+## 📄 Main Pages
 
-### Página del Menú
+### 🏠 Homepage
+📌 **File:** [`homepage/index.html`](homepage/index.html)  
+📝 **Description:** The main page with general information about the restaurant.
 
-- **Archivo:** [menupage/Html/Index.Html](menupage/Html/Index.Html)
-- **Descripción:** Página que muestra el menú de productos disponibles en el restaurante.
+### 🍽️ Menu Page
+📌 **File:** [`menupage/html/index.html`](menupage/html/index.html)  
+📝 **Description:** Displays the available menu items.
 
-### Página de la Cesta
+### 🛒 Shopping Cart Page
+📌 **File:** [`cartpage/html/cart.html`](cartpage/html/cart.html)  
+📝 **Description:** Allows users to manage their added products.
 
-- **Archivo:** [cartpage/Html/Cesta.html](cartpage/Html/Cesta.html)
-- **Descripción:** Página donde los usuarios pueden ver y gestionar los productos añadidos a su cesta de compras.
+### 📞 Contact Page
+📌 **File:** [`contactpage/index.html`](contactpage/index.html)  
+📝 **Description:** Contains contact information and a form for messages.
 
-### Página de Contacto
+---
 
-- **Archivo:** [contactpage/index.html](contactpage/index.html)
-- **Descripción:** Página con información de contacto y un formulario para que los usuarios puedan enviar mensajes al restaurante.
+## 🎨 CSS Files
 
-## Archivos CSS
+- 📌 `reset.css` → Resets styles for consistency across browsers.
+- 🎨 `styles.css` → Main styles for the shopping cart page.
+- 🎨 `main.css` → Main styles for the contact page.
 
-- **reset.css:** Archivo de reinicio de estilos para asegurar consistencia entre navegadores.
-- **styles.css:** Archivo de estilos principal para la página de la cesta.
-- **main.css:** Archivo de estilos principal para la página de contacto.
+## 💻 JavaScript Files
 
-## Archivos JavaScript
+- ⚡ `script.js` → Functionality for the shopping cart page.
+- ⚡ `index.js` → Handles internationalization on the contact page.
 
-- **Script.js:** Archivo JavaScript para la página de la cesta.
-- **index.js:** Archivo JavaScript para la página de contacto, encargado de gestionar la internacionalización.
+---
 
-## Internacionalización
+## 🌍 Internationalization
 
-El proyecto soporta múltiples idiomas mediante archivos JSON ubicados en las carpetas `i18n` de cada página. Los idiomas soportados son:
+The website supports multiple languages:
 
-- Catalán (`ca.json`)
-- Inglés (`en.json`)
-- Español (`es.json`)
+- 🇪🇸 Spanish (`es.json`)
+- 🇬🇧 English (`en.json`)
+- 🇨🇦 Catalan (`ca.json`)
 
-## Instalación
+Language files are stored in the `i18n` folder within each page.
 
-1. Clona el repositorio:
+---
+
+## 🚀 Installation
+
+1️⃣ Clone the repository:
    ```sh
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/your-user/your-repository.git
+   ```
 
-  2. Navega al directorio del proyecto:
+2️⃣ Navigate to the project directory:
+   ```sh
    cd Page-KebabAmego
-Uso
-Abre los archivos HTML en tu navegador para ver las diferentes páginas del sitio web.
+   ```
+
+---
+
+## 🔧 Usage
+
+Open the HTML files in your browser to explore the different website pages. 
+
+📌 **Thank you for visiting Amego Kebab!** 🍢🥙
